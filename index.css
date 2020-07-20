@@ -1,0 +1,32 @@
+@import './css/custom-fonts.css';
+@import './css/typography.css';
+@import './css/animation.css';
+@import './css/layouts.css';
+
+body{
+    font-size: 18px;
+    background-color: #FFFFFF;
+    overflow: auto;
+}
+
+/* header, footer{background-color: black;} */
+/* .main-content{background-color: aqua;} */
+
+header {
+    grid-column: header;
+}
+
+.main-content {
+    grid-area: main;
+    width:80%;
+    margin: 0 auto 0 auto;
+}
+
+footer {
+    grid-area: footer;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: auto;
+    position: stick;
+}

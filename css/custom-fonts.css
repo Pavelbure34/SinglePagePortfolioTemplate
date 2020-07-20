@@ -1,0 +1,14 @@
+@font-face {
+    font-family: titleFont;
+    src: url('../assets/fonts/PlayfairDisplay-Bold.ttf');
+}
+
+@font-face {
+    font-family: contentFont;
+    src: url('../assets/fonts/Chivo-Regular.ttf');
+}
+
+@font-face {
+    font-family: subFont;
+    src: url('../assets/fonts/Chivo-Light.ttf');
+}
